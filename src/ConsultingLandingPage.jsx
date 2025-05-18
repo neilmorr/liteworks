@@ -2,7 +2,7 @@ import { Button } from "./components/ui/button";
 import { Card, CardContent } from "./components/ui/card";
 import { Sparkles, Zap, Heart } from "lucide-react";
 import { motion } from "framer-motion";
-import headshot from "./assets/headshot copy.png";
+import headshot from "./assets/headshot.png";
 
 export default function ConsultingLandingPage() {
   return (
