@@ -53,7 +53,7 @@ export default function ConsultingLandingPage() {
               className="rounded-full px-6 py-4 text-lg bg-pink-500 hover:bg-pink-600 text-white"
               onClick={() => window.location.href = 'mailto:ncmautomations@gmail.com?subject=LiteWork Studios Inquiry'}
             >
-              Start a Chat
+              Chat with Me
             </Button>
           </motion.div>
         </div>
@@ -166,7 +166,7 @@ export default function ConsultingLandingPage() {
                 className="rounded-full px-6 py-4 text-lg bg-pink-500 hover:bg-pink-600 text-white"
                 onClick={() => window.location.href = 'mailto:ncmautomations@gmail.com?subject=LiteWork Studios Inquiry'}
               >
-                Start a Chat
+                Chat with Me
               </Button>
             </motion.div>
           </div>
