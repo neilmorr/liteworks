@@ -32,7 +32,7 @@ export default function ConsultingLandingPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            Smart systems for small teams.
+            Smarter systems for small teams.
           </motion.h2>
           <motion.p
             className="text-lg mb-8 text-gray-700 max-w-2xl mx-auto"
@@ -40,8 +40,7 @@ export default function ConsultingLandingPage() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.6 }}
           >
-            LiteWork Studios helps creative and service-based businesses work smarter
-            by automating the boring stuff. Let's simplify your process with style.
+            LiteWork Studios helps professionals regain time by automating the boring stuff.
           </motion.p>
           <motion.div
             initial={{ scale: 0.95, opacity: 0 }}
