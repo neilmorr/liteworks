@@ -73,14 +73,14 @@ export default function ConsultingLandingPage() {
           <div className="flex flex-col items-center mb-6">
             <motion.img
               src={headshot}
-              alt="Alex headshot"
+              alt="Neil headshot"
               className="w-32 h-32 rounded-full shadow-md object-cover mb-4"
               initial={{ scale: 0.8, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             />
-            <h3 className="text-3xl font-bold">Hi, I'm Alex 👋</h3>
+            <h3 className="text-3xl font-bold">Hi, I'm Neil 👋</h3>
           </div>
           <p className="text-gray-700 text-lg max-w-2xl mx-auto">
             I'm the founder of LiteWork Studios. I specialize in creating
