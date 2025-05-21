@@ -83,11 +83,7 @@ export default function ConsultingLandingPage() {
             <h3 className="text-3xl font-bold">Hi, I'm Neil 👋</h3>
           </div>
           <p className="text-gray-700 text-lg max-w-2xl mx-auto">
-            I'm the founder of LiteWork Studios. I specialize in creating
-            lightweight, delightful automations for small teams that want to
-            spend less time on admin and more time doing what they love. I use
-            tools like Zapier, Airtable, Notion, and custom code to make your
-            workflow flow.
+            I'm the founder of LiteWork Studios. I help small teams reclaim hours in their day by finding and automating their most time-consuming jobs. Think managing spreadsheets, emailing customers, invoicing, and more.
           </p>
         </motion.div>
       </section>
@@ -115,7 +111,7 @@ export default function ConsultingLandingPage() {
                 icon: <Heart className="text-pink-500 w-10 h-10 mb-4" />,
                 title: "Ongoing Support",
                 description:
-                  "Need a go-to person for tinkering and tweaks? I've got your back with friendly ongoing support.",
+                  "Need a go-to person for tinkering, tweaks and coaching? I've got your back with friendly ongoing support.",
               },
             ].map((service, i) => (
               <motion.div
@@ -152,8 +148,8 @@ export default function ConsultingLandingPage() {
           <div className="max-w-2xl mx-auto">
             <h3 className="text-3xl font-bold mb-6 text-pink-600">Let's Make Magic</h3>
             <p className="text-gray-700 mb-6">
-              Want to explore what's possible? Book a call or send a quick message.
-              I'd love to hear what you're working on.
+              Want to explore what's possible? Send me a quick message.
+              I'd love to learn more about what you're working on.
             </p>
             <motion.div
               initial={{ scale: 0.95, opacity: 0 }}
@@ -174,7 +170,7 @@ export default function ConsultingLandingPage() {
       </section>
 
       <footer className="w-full text-center py-8 text-sm text-gray-500">
-        © {new Date().getFullYear()} LiteWork Studios. Made with care.
+        © {new Date().getFullYear()} LiteWork Studios. Made with love and care.
       </footer>
     </div>
   );
