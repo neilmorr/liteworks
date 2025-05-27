@@ -1,6 +1,6 @@
 import { Button } from "./components/ui/button";
 import { Card, CardContent } from "./components/ui/card";
-import { Sparkles, Zap, Heart } from "lucide-react";
+import { Sparkles, MessageCircle, FileText } from "lucide-react";
 import { motion } from "framer-motion";
 import headshot from "./assets/headshot.png";
 
@@ -32,7 +32,7 @@ export default function ConsultingLandingPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            Smarter systems for small teams.
+            Smarter systems for small businesses.
           </motion.h2>
           <motion.p
             className="text-lg mb-8 text-gray-700 max-w-2xl mx-auto"
@@ -90,27 +90,27 @@ export default function ConsultingLandingPage() {
       <section id="services" className="w-full bg-white py-20">
         <div className="container mx-auto px-4 sm:px-6">
           <h3 className="text-3xl font-bold text-center mb-12 text-pink-600">
-            What I Can Help With
+            Possibilities for your business.
           </h3>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {[
               {
-                icon: <Zap className="text-pink-500 w-10 h-10 mb-4" />,
-                title: "Creative Ops Automation",
+                icon: <MessageCircle className="text-pink-500 w-10 h-10 mb-4" />,
+                title: "Delegate Customer Texts",
                 description:
-                  "Turn chaotic creative processes into smooth, repeatable systems with tools your team already loves.",
+                  "Our agent can reference your product catalogue, provide real-time recommendations (including links), and most importantly, sound like an actual human being.",
+              },
+              {
+                icon: <FileText className="text-pink-500 w-10 h-10 mb-4" />,
+                title: "Convert Messy PDFs",
+                description:
+                  "The moment a new PDF reaches your inbox, our automation can grab it, extract the text, and move it to a spreadsheet, Word doc, or anywhere else you need it.",
               },
               {
                 icon: <Sparkles className="text-pink-500 w-10 h-10 mb-4" />,
-                title: "Tool Setup & Integration",
+                title: "Upgrade Your Website in Hours",
                 description:
-                  "Link your apps into a single, seamless experience. Less double entry, more flow.",
-              },
-              {
-                icon: <Heart className="text-pink-500 w-10 h-10 mb-4" />,
-                title: "Ongoing Support",
-                description:
-                  "Need a go-to person for tinkering, tweaks and coaching? I've got your back with friendly ongoing support.",
+                  "We can build and launch a beautiful new site in as little as an hour. No frustrating back-and-forth.",
               },
             ].map((service, i) => (
               <motion.div
@@ -132,7 +132,7 @@ export default function ConsultingLandingPage() {
           </div>
         </div>
       </section>
-
+         
       <section
         id="contact"
         className="w-full py-20 bg-gradient-to-br from-yellow-50 to-white"
